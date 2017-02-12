@@ -55,8 +55,10 @@ public class DialogueTool : EditorWindow
             height = rect.height;
         }
     }
-    
+
     // WINDOW FIELDS
+    private Vector2 scrollPosition = Vector2.zero;
+    private float y = 3000;
     private List<WindowNode> windows;
     private List<WindowNode> windowsToAttach;
     private List<WindowNode> windowsToDetach;
@@ -65,7 +67,7 @@ public class DialogueTool : EditorWindow
     // SAVING/ LOADING DATA FIELDS
     private BinaryFormatter mFormatter;
     private string windowDatafileName = "/dialoguewindows.bat";
-    private string nodeDataFileName = "dialoguenodes.bat";
+    private string nodeDataFileName = "/dialoguenodes.bat";
     private List<DialogueNode> nodes;
 
 
@@ -84,6 +86,8 @@ public class DialogueTool : EditorWindow
 
         text_arrow = (Texture2D)AssetDatabase.LoadAssetAtPath("Assets/Editor/arrow.png", typeof(Texture2D));
         Debug.Assert(text_arrow);
+        
+        maxSize = new Vector2(1300, 600);
 
         mFormatter = new BinaryFormatter();
         LoadNodes();
@@ -91,6 +95,7 @@ public class DialogueTool : EditorWindow
 
     void OnGUI()
     {
+        // attach
         if (windowsToAttach.Count == 2)
         {
             windowsToAttach[0].AddDestination(windowsToAttach[1]);
@@ -98,36 +103,47 @@ public class DialogueTool : EditorWindow
             windowsToAttach.Clear();
         }
         
+        // detach
         if(windowsToDetach.Count == 2)
         {
             windowsToDetach[0].RemoveDestination(windowsToDetach[1]);
             windowsToDetach.Clear();
         }
 
-        for(int i = 0; i < windows.Count; i++)
+        // buttons
+        // [BUTTON] Create
+        if (GUILayout.Button("Create Node"))
         {
-            for(int j = 0; j < windows[i].Destinations.Count; j++)
-            {
-                DrawConnection(windows[i].GetRekt(), windows[i].Destinations[j].GetRekt(), i);
-            }
+            WindowNode newWindow = new WindowNode(new Rect(scrollPosition.x, scrollPosition.y, 200, 420));
+            windows.Add(newWindow);
+            nodes.Add(newWindow.DialogueNode);
+        }
+        // [BUTTON] Save
+        if (GUILayout.Button("Save"))
+        {
+            SaveNodes();
         }
 
+        // windows
+        scrollPosition = GUI.BeginScrollView(new Rect(0, 50, 1300, 550), scrollPosition, new Rect(0, 0, 1300, y));
         BeginWindows();
-            if (GUILayout.Button("Create Node"))
+            // connections
+            for (int i = 0; i < windows.Count; i++)
             {
-                WindowNode newWindow = new WindowNode(new Rect(10, 10, 200, 250));
-                windows.Add(newWindow);
-                nodes.Add(newWindow.DialogueNode);
+                for (int j = 0; j < windows[i].Destinations.Count; j++)
+                {
+                    DrawConnection(windows[i].GetRekt(), windows[i].Destinations[j].GetRekt(), i);
+                }
             }
-            if (GUILayout.Button("Save"))
-            {
-                SaveNodes();
-            }
+            // [WINDOW] Windows
             for (int i = 0; i < windows.Count; i++)
             {
                 windows[i].SetRect( GUI.Window(i, windows[i].GetRekt(), DrawNodeWindow, "Window " + i) );
             }
         EndWindows();
+        GUI.EndScrollView();
+        if(scrollPosition.y > y - 600)
+            y += 100;
     }
 
     void DrawNodeWindow(int id)
@@ -150,13 +166,24 @@ public class DialogueTool : EditorWindow
         EditorGUILayout.LabelField("Text");
         node.Text = EditorGUILayout.TextArea(node.Text);
 
+        // [ENUM] Location
+        node.mLocation = (DialogueNode.Location)EditorGUILayout.EnumPopup("Location", node.mLocation);
+
         // [INT FIELD] Conversation ID
         EditorGUILayout.LabelField("Conversation ID");
         node.ConversationID = EditorGUILayout.IntField(node.ConversationID);
 
+        // [INT FIELD] Node ID
+        EditorGUILayout.LabelField("Node ID");
+        node.NodeID = EditorGUILayout.IntField(node.NodeID);
+
         // [TOGGLE] Is Valid
         EditorGUILayout.LabelField("Valid by Default");
         node.IsValid = EditorGUILayout.Toggle(node.IsValid);
+
+        // [TOGGLE] Is MC
+        EditorGUILayout.LabelField("Is MC Speaking");
+        node.IsMC = EditorGUILayout.Toggle(node.IsMC);
 
         // [TOGGLE] Is Option
         EditorGUILayout.LabelField("Is Option");
@@ -165,8 +192,23 @@ public class DialogueTool : EditorWindow
         // [TOGGLE] Is RIGHT Option
         EditorGUILayout.LabelField("Is GOOD Option");
         node.GoodOption = EditorGUILayout.Toggle(node.GoodOption);
+        
+        // [BUTTON] Delete
+        if (GUILayout.Button("Delete"))
+        {
+            RemoveWindow(id);
+        }
 
         GUI.DragWindow();
+    }
+
+    private void RemoveWindow(int id)
+    {
+        for (int i = 0; i < windows.Count; i++)
+        {
+            windows[i].RemoveDestination(windows[id]);
+        }
+        windows.Remove(windows[id]);
     }
 
     void DrawConnection(Rect start, Rect end, int id)
@@ -195,7 +237,7 @@ public class DialogueTool : EditorWindow
             file.Close();
         }
 
-        // Dialoge nodes, for game
+        // Dialoge nodes, for editor
         FileStream nodeFile = File.Open(Application.persistentDataPath + nodeDataFileName, FileMode.OpenOrCreate);
         try
         {
@@ -208,6 +250,22 @@ public class DialogueTool : EditorWindow
         finally
         {
             nodeFile.Close();
+        }
+
+        // Dialogue nodes, for game
+        FileStream nodeFile2 = File.Open(Application.dataPath + "/Resources/dd.bytes", FileMode.OpenOrCreate);
+        DialogueNodeList dnl = new DialogueNodeList(nodes);
+        try
+        {
+            mFormatter.Serialize(nodeFile2, dnl);
+        }
+        catch (SerializationException e)
+        {
+            Debug.LogError("Serialization failed: " + e);
+        }
+        finally
+        {
+            nodeFile2.Close();
         }
     }
 

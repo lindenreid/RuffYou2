@@ -1,0 +1,560 @@
+fileFormatVersion: 2
+guid: 916fd6f8e0543894d8d79571766e894a
+timeCreated: 1483943789
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: chihuahua_idle_spritesheet_0
+    21300002: chihuahua_idle_spritesheet_1
+    21300004: chihuahua_idle_spritesheet_2
+    21300006: chihuahua_idle_spritesheet_3
+    21300008: chihuahua_idle_spritesheet_4
+    21300010: chihuahua_idle_spritesheet_5
+    21300012: chihuahua_idle_spritesheet_6
+    21300014: chihuahua_idle_spritesheet_7
+    21300016: chihuahua_idle_spritesheet_8
+    21300018: chihuahua_idle_spritesheet_9
+    21300020: chihuahua_idle_spritesheet_10
+    21300022: chihuahua_idle_spritesheet_11
+    21300024: chihuahua_idle_spritesheet_12
+    21300026: chihuahua_idle_spritesheet_13
+    21300028: chihuahua_idle_spritesheet_14
+    21300030: chihuahua_idle_spritesheet_15
+    21300032: chihuahua_idle_spritesheet_16
+    21300034: chihuahua_idle_spritesheet_17
+    21300036: chihuahua_idle_spritesheet_18
+    21300038: chihuahua_idle_spritesheet_19
+    21300040: chihuahua_idle_spritesheet_20
+    21300042: chihuahua_idle_spritesheet_21
+    21300044: chihuahua_idle_spritesheet_22
+    21300046: chihuahua_idle_spritesheet_23
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: chihuahua_idle_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5400
+        width: 1080
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -74, y: 125.43738}
+        - {x: -74, y: -21.562622}
+        - {x: 82, y: -21.562622}
+        - {x: 82, y: 125.43738}
+    - name: chihuahua_idle_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 5400
+        width: 1080
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39.25, y: 116.43738}
+        - {x: 38.25, y: 113.43738}
+        - {x: 41.25, y: 109.43738}
+        - {x: 51.25, y: 99.43738}
+        - {x: -30.75, y: 125.43738}
+        - {x: -73.75, y: 125.43738}
+        - {x: -73.75, y: 37.437378}
+        - {x: -40.75, y: -21.562622}
+        - {x: -38.75, y: -22.562622}
+        - {x: 80.25, y: -22.562622}
+        - {x: 82.25, y: -20.562622}
+        - {x: 82.25, y: 94.43738}
+        - {x: 70.25, y: 122.43738}
+    - name: chihuahua_idle_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 5400
+        width: 1080
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45.5, y: 119.43738}
+        - {x: 43.5, y: 113.43738}
+        - {x: -1.5, y: 124.43738}
+        - {x: -73.5, y: 124.43738}
+        - {x: -73.5, y: 59.437378}
+        - {x: -38.5, y: -22.562622}
+        - {x: 83.5, y: -22.562622}
+        - {x: 83.5, y: 104.43738}
+        - {x: 68.5, y: 116.43738}
+    - name: chihuahua_idle_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 5400
+        width: 1080
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -67.25006, y: 124.43738}
+        - {x: -72.25006, y: 104.43738}
+        - {x: -72.25006, y: 34.437378}
+        - {x: -55.25006, y: -22.562622}
+        - {x: 83.74994, y: -22.562622}
+        - {x: 83.74994, y: 103.43738}
+        - {x: 75.74994, y: 124.43738}
+    - name: chihuahua_idle_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4320
+        width: 1080
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 63, y: 123.1875}
+        - {x: 60, y: 118.1875}
+        - {x: 46, y: 123.1875}
+        - {x: -74, y: 123.1875}
+        - {x: -74, y: -9.8125}
+        - {x: -67, y: -22.8125}
+        - {x: 84, y: -22.8125}
+        - {x: 84, y: 105.1875}
+        - {x: 71, y: 123.1875}
+    - name: chihuahua_idle_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 4320
+        width: 1080
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46.75, y: -22.8125}
+        - {x: 86.25, y: -22.8125}
+        - {x: 86.25, y: 122.1875}
+        - {x: -73.75, y: 122.1875}
+        - {x: -73.75, y: 54.1875}
+    - name: chihuahua_idle_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 4320
+        width: 1080
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 83.5, y: 121.1875}
+        - {x: 76.5, y: 119.1875}
+        - {x: 29.5, y: 122.1875}
+        - {x: -67.5, y: 122.1875}
+        - {x: -72.5, y: 113.1875}
+        - {x: -72.5, y: 6.1875}
+        - {x: -43.5, y: -22.8125}
+        - {x: 87.5, y: -22.8125}
+        - {x: 90.5, y: -14.8125}
+        - {x: 91.5, y: 11.1875}
+        - {x: 91.5, y: 114.1875}
+    - name: chihuahua_idle_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 4320
+        width: 1080
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -72.25006, y: 122.1875}
+        - {x: -72.25006, y: 55.1875}
+        - {x: -41.25006, y: -22.8125}
+        - {x: -15.250061, y: -22.8125}
+        - {x: -8.250061, y: -15.8125}
+        - {x: 35.74994, y: -22.8125}
+        - {x: 77.74994, y: -22.8125}
+        - {x: 87.74994, y: -17.8125}
+        - {x: 87.74994, y: 122.1875}
+    - name: chihuahua_idle_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3240
+        width: 1080
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -73, y: 123.93744}
+        - {x: -73, y: -22.062561}
+        - {x: 84, y: -22.062561}
+        - {x: 84, y: 114.93744}
+        - {x: 80, y: 123.93744}
+    - name: chihuahua_idle_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 3240
+        width: 1080
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 56.25, y: 123.93744}
+        - {x: 52.25, y: 114.93744}
+        - {x: 25.25, y: 123.93744}
+        - {x: -71.75, y: 123.93744}
+        - {x: -71.75, y: -22.062561}
+        - {x: 83.25, y: -22.062561}
+        - {x: 83.25, y: 106.93744}
+        - {x: 68.25, y: 123.93744}
+    - name: chihuahua_idle_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 3240
+        width: 1080
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -71.5, y: 44.93744}
+        - {x: -37.5, y: -19.062561}
+        - {x: -28.5, y: -22.062561}
+        - {x: 83.5, y: -22.062561}
+        - {x: 83.5, y: 120.93744}
+        - {x: 73.5, y: 123.93744}
+        - {x: -63.5, y: 123.93744}
+        - {x: -71.5, y: 101.93744}
+    - name: chihuahua_idle_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 3240
+        width: 1080
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43.74994, y: 120.93744}
+        - {x: 37.74994, y: 113.93744}
+        - {x: 50.74994, y: 100.93744}
+        - {x: -29.250061, y: 121.93744}
+        - {x: -49.25006, y: 123.93744}
+        - {x: -58.25006, y: 123.93744}
+        - {x: -61.25006, y: 122.93744}
+        - {x: -70.25006, y: 104.93744}
+        - {x: -70.25006, y: -6.062561}
+        - {x: -66.25006, y: -22.062561}
+        - {x: 83.74994, y: -22.062561}
+        - {x: 83.74994, y: 102.93744}
+        - {x: 66.74994, y: 114.93744}
+    - name: chihuahua_idle_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 1080
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -71, y: 123.6875}
+        - {x: -71, y: 25.6875}
+        - {x: -62, y: -22.3125}
+        - {x: -16, y: -22.3125}
+        - {x: -10, y: -16.3125}
+        - {x: -5, y: 2.6875}
+        - {x: 64, y: -22.3125}
+        - {x: 82, y: -22.3125}
+        - {x: 82, y: 94.6875}
+        - {x: 75, y: 123.6875}
+    - name: chihuahua_idle_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 2160
+        width: 1080
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40.25, y: 123.6875}
+        - {x: 36.25, y: 115.6875}
+        - {x: 37.25, y: 111.6875}
+        - {x: 1.25, y: 123.6875}
+        - {x: -64.75, y: 123.6875}
+        - {x: -70.75, y: 97.6875}
+        - {x: -70.75, y: 21.6875}
+        - {x: -64.75, y: -22.3125}
+        - {x: 82.25, y: -22.3125}
+        - {x: 82.25, y: 104.6875}
+        - {x: 59.25, y: 123.6875}
+    - name: chihuahua_idle_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2160
+        width: 1080
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42.5, y: 117.6875}
+        - {x: 44.5, y: 112.6875}
+        - {x: -11.5, y: 123.6875}
+        - {x: -71.5, y: 123.6875}
+        - {x: -71.5, y: 54.6875}
+        - {x: -55.5, y: -22.3125}
+        - {x: -9.5, y: -22.3125}
+        - {x: -7.5, y: -21.3125}
+        - {x: -6.5, y: -11.3125}
+        - {x: 41.5, y: -22.3125}
+        - {x: 83.5, y: -22.3125}
+        - {x: 83.5, y: 104.6875}
+        - {x: 64.5, y: 119.6875}
+    - name: chihuahua_idle_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 2160
+        width: 1080
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 55.74994, y: 123.6875}
+        - {x: 52.74994, y: 117.6875}
+        - {x: 28.749939, y: 123.6875}
+        - {x: -71.25006, y: 123.6875}
+        - {x: -71.25006, y: 42.6875}
+        - {x: -42.25006, y: -21.3125}
+        - {x: -38.25006, y: -22.3125}
+        - {x: 84.74994, y: -22.3125}
+        - {x: 84.74994, y: 103.6875}
+        - {x: 61.74994, y: 123.6875}
+    - name: chihuahua_idle_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 1080
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51, y: 122.4375}
+        - {x: -73, y: 122.4375}
+        - {x: -73, y: 49.4375}
+        - {x: -35, y: -21.5625}
+        - {x: -18, y: -21.5625}
+        - {x: -10, y: -16.5625}
+        - {x: 15, y: -22.5625}
+        - {x: 82, y: -22.5625}
+        - {x: 85, y: -16.5625}
+        - {x: 85, y: 110.4375}
+        - {x: 61, y: 120.4375}
+    - name: chihuahua_idle_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1080
+        width: 1080
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 87.25, y: -22.5625}
+        - {x: 87.25, y: 122.4375}
+        - {x: -72.75, y: 122.4375}
+        - {x: -72.75, y: -22.5625}
+    - name: chihuahua_idle_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1080
+        width: 1080
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 81.5, y: 120.4375}
+        - {x: 60.5, y: 122.4375}
+        - {x: -72.5, y: 122.4375}
+        - {x: -72.5, y: -22.5625}
+        - {x: 80.5, y: -22.5625}
+        - {x: 91.5, y: -17.5625}
+        - {x: 91.5, y: 110.4375}
+        - {x: 85.5, y: 117.4375}
+    - name: chihuahua_idle_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 1080
+        width: 1080
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 70.74994, y: 118.4375}
+        - {x: 70.74994, y: 99.4375}
+        - {x: -33.25006, y: 122.4375}
+        - {x: -66.25006, y: 122.4375}
+        - {x: -72.25006, y: 98.4375}
+        - {x: -72.25006, y: 46.4375}
+        - {x: -40.25006, y: -22.5625}
+        - {x: 87.74994, y: -22.5625}
+        - {x: 87.74994, y: 114.4375}
+        - {x: 73.74994, y: 120.4375}
+    - name: chihuahua_idle_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1080
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 65, y: 123.1875}
+        - {x: 60, y: 117.1875}
+        - {x: 33, y: 123.1875}
+        - {x: -74, y: 123.1875}
+        - {x: -74, y: 44.1875}
+        - {x: -38, y: -22.8125}
+        - {x: 85, y: -22.8125}
+        - {x: 85, y: 103.1875}
+        - {x: 66, y: 123.1875}
+    - name: chihuahua_idle_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 0
+        width: 1080
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 83.25, y: 114.1875}
+        - {x: 68.25, y: 123.1875}
+        - {x: -73.75, y: 123.1875}
+        - {x: -73.75, y: -4.8125}
+        - {x: -68.75, y: -22.8125}
+        - {x: -13.75, y: -22.8125}
+        - {x: -6.75, y: -18.8125}
+        - {x: 14.25, y: -22.8125}
+        - {x: 83.25, y: -22.8125}
+    - name: chihuahua_idle_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 0
+        width: 1080
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -73.5, y: 123.1875}
+        - {x: -73.5, y: 43.1875}
+        - {x: -53.5, y: -22.8125}
+        - {x: 83.5, y: -22.8125}
+        - {x: 83.5, y: 123.1875}
+    - name: chihuahua_idle_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 0
+        width: 1080
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 57.74994, y: 119.1875}
+        - {x: 39.74994, y: 116.1875}
+        - {x: 37.74994, y: 112.1875}
+        - {x: -5.250061, y: 124.1875}
+        - {x: -72.25006, y: 124.1875}
+        - {x: -72.25006, y: 54.1875}
+        - {x: -38.25006, y: -19.8125}
+        - {x: -30.250061, y: -21.8125}
+        - {x: -16.250061, y: -21.8125}
+        - {x: -12.250061, y: -20.8125}
+        - {x: 1.749939, y: -22.8125}
+        - {x: 83.74994, y: -22.8125}
+        - {x: 83.74994, y: 90.1875}
+        - {x: 82.74994, y: 95.1875}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

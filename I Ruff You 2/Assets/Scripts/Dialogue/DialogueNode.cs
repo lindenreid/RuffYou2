@@ -4,13 +4,27 @@ using System.Collections.Generic;
 [Serializable]
 public class DialogueNode {
 
+    // WARNING: do not change the order of these!!!
+    public enum Location
+    {
+        Ball = 0,
+        Food = 1,
+        Pool = 2,
+        Tree = 3,
+        Bushes = 4
+    }
+
     public List<DialogueNode> NextNodes;
-    public bool IsValid;
-    public int ConversationID;
-    public string Text;
-    public bool IsRoot;
-    public bool IsOption;
-    public bool GoodOption;
+    public bool     IsValid;
+    public int      ConversationID;
+    public int      NodeID;
+
+    public string   Text;
+    public bool     IsRoot;
+    public bool     IsMC;
+    public bool     IsOption;
+    public bool     GoodOption;
+    public Location mLocation;
 
     public DialogueNode()
     {
@@ -21,6 +35,7 @@ public class DialogueNode {
         IsRoot = true;
         IsOption = false;
         GoodOption = false;
+        mLocation = Location.Bushes;
     }
 
     public DialogueNode(bool valid, int conversationID, string text, List<DialogueNode> nextNodes)

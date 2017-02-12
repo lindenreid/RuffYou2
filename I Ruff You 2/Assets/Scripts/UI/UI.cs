@@ -1,15 +1,26 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using System.Collections.Generic;
 
 public class UI : MonoBehaviour {
 
+    // World references
+    public MenuController MenuController;
     public DialogueController DialogueController;
-    public Text Text;
 
-    public void Close()
+    // UI
+    public Text Text;
+    public List<Button> ActiveButtons;
+
+    void OnEnable()
     {
-        gameObject.SetActive(false);
-        DialogueController.EnableMovement(true);
+        MenuController.ActiveUI = this;
     }
 
+    public void Close(bool enableMovement = true)
+    {
+        MenuController.ActiveUI = null;
+        gameObject.SetActive(false);
+        MenuController.EnableMovement(enableMovement);
+    }
 }

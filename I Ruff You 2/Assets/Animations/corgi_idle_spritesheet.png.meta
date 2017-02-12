@@ -1,0 +1,549 @@
+fileFormatVersion: 2
+guid: c3a9726ce1196be459ffcfdcd096609e
+timeCreated: 1483841784
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: corgi_idle_spritesheet_0
+    21300002: corgi_idle_spritesheet_1
+    21300004: corgi_idle_spritesheet_2
+    21300006: corgi_idle_spritesheet_3
+    21300008: corgi_idle_spritesheet_4
+    21300010: corgi_idle_spritesheet_5
+    21300012: corgi_idle_spritesheet_6
+    21300014: corgi_idle_spritesheet_7
+    21300016: corgi_idle_spritesheet_8
+    21300018: corgi_idle_spritesheet_9
+    21300020: corgi_idle_spritesheet_10
+    21300022: corgi_idle_spritesheet_11
+    21300024: corgi_idle_spritesheet_12
+    21300026: corgi_idle_spritesheet_13
+    21300028: corgi_idle_spritesheet_14
+    21300030: corgi_idle_spritesheet_15
+    21300032: corgi_idle_spritesheet_16
+    21300034: corgi_idle_spritesheet_17
+    21300036: corgi_idle_spritesheet_18
+    21300038: corgi_idle_spritesheet_19
+    21300040: corgi_idle_spritesheet_20
+    21300042: corgi_idle_spritesheet_21
+    21300044: corgi_idle_spritesheet_22
+    21300046: corgi_idle_spritesheet_23
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: corgi_idle_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5400
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: 63.249878}
+        - {x: -98, y: 63.249878}
+        - {x: -98, y: -45.750122}
+        - {x: -86, y: -49.750122}
+        - {x: 96, y: -49.750122}
+        - {x: 98, y: -47.750122}
+        - {x: 98, y: -29.750122}
+        - {x: 96, y: -25.750122}
+        - {x: 91, y: -21.750122}
+        - {x: 45, y: 62.249878}
+    - name: corgi_idle_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 5400
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53.25, y: 19.249878}
+        - {x: -33.75, y: 63.249878}
+        - {x: -98.75, y: 63.249878}
+        - {x: -98.75, y: 16.249878}
+        - {x: -89.75, y: -26.750122}
+        - {x: -64.75, y: -49.750122}
+        - {x: 57.25, y: -49.750122}
+        - {x: 98.25, y: -43.750122}
+        - {x: 98.25, y: -26.750122}
+        - {x: 95.25, y: -21.750122}
+    - name: corgi_idle_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 5400
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -98.5, y: 62.249878}
+        - {x: -98.5, y: 33.249878}
+        - {x: -85.5, y: -24.750122}
+        - {x: -79.5, y: -49.750122}
+        - {x: 99.5, y: -49.750122}
+        - {x: 99.5, y: 13.249878}
+        - {x: 28.5, y: 62.249878}
+    - name: corgi_idle_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 5400
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -92.25006, y: -49.750122}
+        - {x: 100.74994, y: -49.750122}
+        - {x: 100.74994, y: -13.750122}
+        - {x: 56.74994, y: 61.249878}
+        - {x: 38.74994, y: 62.249878}
+        - {x: -98.25006, y: 62.249878}
+        - {x: -98.25006, y: -47.750122}
+    - name: corgi_idle_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4320
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 61}
+        - {x: -85, y: 61}
+        - {x: -101, y: 56}
+        - {x: -101, y: 20}
+        - {x: -95, y: -22}
+        - {x: -78, y: -50}
+        - {x: 72, y: -50}
+        - {x: 99, y: -48}
+        - {x: 99, y: -26}
+        - {x: 62, y: 22}
+    - name: corgi_idle_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 4320
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -100.75, y: -50}
+        - {x: 98.25, y: -50}
+        - {x: 100.25, y: -49}
+        - {x: 100.25, y: -25}
+        - {x: 58.25, y: 20}
+        - {x: -45.75, y: 60}
+        - {x: -63.75, y: 60}
+        - {x: -100.75, y: 51}
+    - name: corgi_idle_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 4320
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.5, y: -50}
+        - {x: 100.5, y: 0}
+        - {x: 3.5, y: 60}
+        - {x: -93.5, y: 60}
+        - {x: -101.5, y: 52}
+        - {x: -101.5, y: -50}
+    - name: corgi_idle_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 4320
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -87.25006, y: 59}
+        - {x: -101.25006, y: 45}
+        - {x: -101.25006, y: 33}
+        - {x: -95.25006, y: 27}
+        - {x: -88.25006, y: 23}
+        - {x: -84.25006, y: -19}
+        - {x: -67.25006, y: -51}
+        - {x: 69.74994, y: -51}
+        - {x: 101.74994, y: -35}
+        - {x: 101.74994, y: -7}
+        - {x: -18.250061, y: 59}
+    - name: corgi_idle_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3240
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -98, y: 59.74994}
+        - {x: -104, y: 55.74994}
+        - {x: -104, y: 17.749939}
+        - {x: -88, y: -29.250061}
+        - {x: -66, y: -49.25006}
+        - {x: 57, y: -49.25006}
+        - {x: 100, y: -33.25006}
+        - {x: 100, y: -0.25006104}
+        - {x: 1, y: 59.74994}
+    - name: corgi_idle_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 3240
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.75, y: 59.74994}
+        - {x: -103.75, y: 59.74994}
+        - {x: -103.75, y: -0.25006104}
+        - {x: -99.75, y: -23.250061}
+        - {x: -72.75, y: -49.25006}
+        - {x: 70.25, y: -49.25006}
+        - {x: 101.25, y: -36.25006}
+        - {x: 101.25, y: -24.250061}
+        - {x: 55.25, y: 37.74994}
+    - name: corgi_idle_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 3240
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -77.5, y: 58.74994}
+        - {x: -104.5, y: 47.74994}
+        - {x: -104.5, y: 19.749939}
+        - {x: -78.5, y: -49.25006}
+        - {x: 67.5, y: -49.25006}
+        - {x: 101.5, y: -32.25006}
+        - {x: 101.5, y: -7.250061}
+        - {x: -50.5, y: 58.74994}
+    - name: corgi_idle_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 3240
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93.25006, y: 58.74994}
+        - {x: -104.25006, y: 48.74994}
+        - {x: -104.25006, y: 26.749939}
+        - {x: -74.25006, y: -49.25006}
+        - {x: 102.74994, y: -49.25006}
+        - {x: 102.74994, y: -2.250061}
+        - {x: -9.250061, y: 58.74994}
+    - name: corgi_idle_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -77, y: 57.5}
+        - {x: -106, y: 40.5}
+        - {x: -106, y: 8.5}
+        - {x: -76, y: -50.5}
+        - {x: 58, y: -50.5}
+        - {x: 101, y: -33.5}
+        - {x: 101, y: -1.5}
+        - {x: -23, y: 57.5}
+    - name: corgi_idle_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 2160
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -101.75, y: 57.5}
+        - {x: -105.75, y: 54.5}
+        - {x: -105.75, y: 11.5}
+        - {x: -92.75, y: -24.5}
+        - {x: -82.75, y: -50.5}
+        - {x: 101.25, y: -50.5}
+        - {x: 101.25, y: 6.5}
+        - {x: 11.25, y: 57.5}
+    - name: corgi_idle_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2160
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -104.5, y: 12.5}
+        - {x: -93.5, y: -34.5}
+        - {x: -82.5, y: -49.5}
+        - {x: 92.5, y: -49.5}
+        - {x: 101.5, y: -48.5}
+        - {x: 101.5, y: -25.5}
+        - {x: 84.5, y: 1.5}
+        - {x: -40.5, y: 58.5}
+        - {x: -87.5, y: 58.5}
+        - {x: -104.5, y: 56.5}
+    - name: corgi_idle_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 2160
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 92.74994, y: -16.5}
+        - {x: 35.74994, y: 58.5}
+        - {x: -103.25006, y: 58.5}
+        - {x: -103.25006, y: -6.5}
+        - {x: -74.25006, y: -49.5}
+        - {x: 65.74994, y: -49.5}
+        - {x: 100.74994, y: -36.5}
+        - {x: 101.74994, y: -34.5}
+        - {x: 101.74994, y: -28.5}
+    - name: corgi_idle_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 59.25}
+        - {x: -93, y: 59.25}
+        - {x: -104, y: 51.25}
+        - {x: -104, y: 22.25}
+        - {x: -84, y: -50.75}
+        - {x: 75, y: -50.75}
+        - {x: 98, y: -36.75}
+        - {x: 100, y: -35.75}
+        - {x: 100, y: 5.25}
+    - name: corgi_idle_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1080
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.75, y: 59.25}
+        - {x: -100.75, y: 59.25}
+        - {x: -102.75, y: 54.25}
+        - {x: -102.75, y: 4.25}
+        - {x: -74.75, y: -50.75}
+        - {x: 84.25, y: -50.75}
+        - {x: 100.25, y: -41.75}
+        - {x: 100.25, y: -6.75}
+        - {x: 37.25, y: 35.25}
+    - name: corgi_idle_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1080
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.5, y: -49.75}
+        - {x: 100.5, y: 0.25}
+        - {x: 3.5, y: 60.25}
+        - {x: -93.5, y: 60.25}
+        - {x: -101.5, y: 52.25}
+        - {x: -101.5, y: -49.75}
+    - name: corgi_idle_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 1080
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.25006, y: 60.25}
+        - {x: -63.25006, y: 60.25}
+        - {x: -100.25006, y: 45.25}
+        - {x: -100.25006, y: 40.25}
+        - {x: -99.25006, y: 36.25}
+        - {x: -85.25006, y: -27.75}
+        - {x: -76.25006, y: -49.75}
+        - {x: 100.74994, y: -49.75}
+        - {x: 100.74994, y: -25.75}
+        - {x: 59.74994, y: 19.25}
+    - name: corgi_idle_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -101, y: 8}
+        - {x: -93, y: -29}
+        - {x: -64, y: -49}
+        - {x: -59, y: -51}
+        - {x: 99, y: -51}
+        - {x: 99, y: -26}
+        - {x: 59, y: 22}
+        - {x: -50, y: 61}
+        - {x: -60, y: 61}
+        - {x: -101, y: 53}
+    - name: corgi_idle_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 0
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.75, y: 61}
+        - {x: -90.75, y: 61}
+        - {x: -99.75, y: 57}
+        - {x: -99.75, y: 8}
+        - {x: -89.75, y: -28}
+        - {x: -82.75, y: -51}
+        - {x: 99.25, y: -51}
+        - {x: 99.25, y: -26}
+        - {x: 58.25, y: 17}
+    - name: corgi_idle_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 0
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 99.5, y: -51}
+        - {x: 99.5, y: 3}
+        - {x: 79.5, y: 60}
+        - {x: 38.5, y: 62}
+        - {x: -98.5, y: 62}
+        - {x: -98.5, y: -51}
+    - name: corgi_idle_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 0
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.749939, y: 62}
+        - {x: -97.25006, y: 62}
+        - {x: -97.25006, y: -48}
+        - {x: -86.25006, y: -51}
+        - {x: 96.74994, y: -51}
+        - {x: 99.74994, y: -47}
+        - {x: 99.74994, y: -10}
+        - {x: 44.74994, y: 60}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

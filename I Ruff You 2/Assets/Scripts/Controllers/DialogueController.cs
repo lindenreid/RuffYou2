@@ -9,67 +9,64 @@ public class DialogueController : MonoBehaviour {
     // ------------ PUBLIC FIELDS ------------
 
     // UI
-    public UI ItemUI;
-    public DialogueUI DogDialogueUI;
+    public UI           ItemUI;
+    public DialogueUI   DogDialogueUI;
 
     // INTERNAL
-    public List<DialogueNode> DialogueNodes;
+    public int                  IntroConvoID;
+    public List<Transform>      DogLocations;
+    public List<DialogueNode>   DialogueNodes;
 
     // EXTERNAL
     public GameController GameController;
+    public MenuController MenuController;
 
     // ------------ PUBLIC FUNCTIONS ------------
 
+    // Monobehavior
+
     void Awake()
     {
-        BinaryFormatter formatter = new BinaryFormatter();
-        FileStream file;
-        if(Application.isWebPlayer)
-            file = File.Open(Application.absoluteURL + "dialoguenodes.bat", FileMode.OpenOrCreate);
-        else
-            file = File.Open(Application.persistentDataPath + "dialoguenodes.bat", FileMode.OpenOrCreate);
+        TextAsset data = Resources.Load<TextAsset>("dd");
 
+        BinaryFormatter formatter = new BinaryFormatter();
+        MemoryStream stream = new MemoryStream(data.bytes);
+        
         try
-        {
-            DialogueNodes = (List<DialogueNode>)formatter.Deserialize(file);
+        { 
+            DialogueNodeList nodeListObj = formatter.Deserialize(stream) as DialogueNodeList;
+            DialogueNodes = nodeListObj.Nodes;
         }
         catch (SerializationException e)
         {
             Debug.LogError("De-serialization failed: " + e);
         }
-        finally
-        {
-            file.Close();
+    }
 
-            // initialize list of nodes in case deserialization failed
-            if (DialogueNodes == null)
-            {
-                DialogueNodes = new List<DialogueNode>();
-                Debug.LogError("DialogeNodes empty in DialogueController.");
-            }
-        }
+    // Dialogue UI
+
+    public void DisplayIntroDialogue()
+    {
+        DogDialogueUI.StartIntroDialogue(IntroConvoID);
+        DogDialogueUI.gameObject.SetActive(true);
+        MenuController.EnableMovement(false);
+        MenuController.ActiveUI = DogDialogueUI;
     }
 
     public void DisplayItemUI(string text)
     {
         ItemUI.Text.text = text;
         ItemUI.gameObject.SetActive(true);
-        EnableMovement(false);
+        MenuController.EnableMovement(false);
+        MenuController.ActiveUI = ItemUI;
     }
 
     public void DisplayDialogueUI(Dog dog)
     {
         DogDialogueUI.StartDialogue(dog);
         DogDialogueUI.gameObject.SetActive(true);
-        EnableMovement(false);
-    }
-
-    public void EnableMovement(bool enable)
-    {
-        if (enable)
-            GameController.CharacterMovement.enabled = true;
-        else
-            GameController.CharacterMovement.enabled = false;
+        MenuController.EnableMovement(false);
+        MenuController.ActiveUI = DogDialogueUI;
     }
 
     public DialogueNode GetConversationRoot(int convoID)
@@ -81,6 +78,26 @@ public class DialogueController : MonoBehaviour {
         }
         Debug.LogError("DialogueController.DialogueNode() : Conversation root not found!");
         return null;
+    }
+
+    public Vector3 GetDogLocation(int conversationID)
+    {
+        int i = (int)GetConversationRoot(conversationID).mLocation;
+
+        Vector3 pos = DogLocations[i].position;
+        Vector2 random2d = Random.insideUnitCircle * 5.0f;
+        pos += new Vector3(random2d.x, 0, random2d.y);
+        
+        return pos;
+    }
+
+    public void EnableChoices(bool enable, List<int> convoIDs)
+    {
+        foreach(DialogueNode node in DialogueNodes)
+        {
+            if (node.IsOption && convoIDs.Contains(node.NodeID))
+                node.IsValid = enable;
+        }
     }
 
 }

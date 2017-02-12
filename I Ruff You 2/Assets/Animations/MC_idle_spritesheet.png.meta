@@ -1,0 +1,534 @@
+fileFormatVersion: 2
+guid: 014ee8a8ec4e5324a959fe30ef882b24
+timeCreated: 1483943663
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: MC_idle_spritesheet_0
+    21300002: MC_idle_spritesheet_1
+    21300004: MC_idle_spritesheet_2
+    21300006: MC_idle_spritesheet_3
+    21300008: MC_idle_spritesheet_4
+    21300010: MC_idle_spritesheet_5
+    21300012: MC_idle_spritesheet_6
+    21300014: MC_idle_spritesheet_7
+    21300016: MC_idle_spritesheet_8
+    21300018: MC_idle_spritesheet_9
+    21300020: MC_idle_spritesheet_10
+    21300022: MC_idle_spritesheet_11
+    21300024: MC_idle_spritesheet_12
+    21300026: MC_idle_spritesheet_13
+    21300028: MC_idle_spritesheet_14
+    21300030: MC_idle_spritesheet_15
+    21300032: MC_idle_spritesheet_16
+    21300034: MC_idle_spritesheet_17
+    21300036: MC_idle_spritesheet_18
+    21300038: MC_idle_spritesheet_19
+    21300040: MC_idle_spritesheet_20
+    21300042: MC_idle_spritesheet_21
+    21300044: MC_idle_spritesheet_22
+    21300046: MC_idle_spritesheet_23
+    21300048: MC_idle_spritesheet_24
+    21300050: MC_idle_spritesheet_25
+    21300052: MC_idle_spritesheet_26
+    21300054: MC_idle_spritesheet_27
+    21300056: MC_idle_spritesheet_28
+    21300058: MC_idle_spritesheet_29
+    21300060: MC_idle_spritesheet_30
+    21300062: MC_idle_spritesheet_31
+    21300064: MC_idle_spritesheet_32
+    21300066: MC_idle_spritesheet_33
+    21300068: MC_idle_spritesheet_34
+    21300070: MC_idle_spritesheet_35
+    21300072: MC_idle_spritesheet_36
+    21300074: MC_idle_spritesheet_37
+    21300076: MC_idle_spritesheet_38
+    21300078: MC_idle_spritesheet_39
+    21300080: MC_idle_spritesheet_40
+    21300082: MC_idle_spritesheet_41
+    21300084: MC_idle_spritesheet_42
+    21300086: MC_idle_spritesheet_43
+    21300088: MC_idle_spritesheet_44
+    21300090: MC_idle_spritesheet_45
+    21300092: MC_idle_spritesheet_46
+    21300094: MC_idle_spritesheet_47
+    21300096: MC_idle_spritesheet_48
+    21300098: MC_idle_spritesheet_49
+    21300100: MC_idle_spritesheet_50
+    21300102: MC_idle_spritesheet_51
+    21300104: MC_idle_spritesheet_52
+    21300106: MC_idle_spritesheet_53
+    21300108: MC_idle_spritesheet_54
+    21300110: MC_idle_spritesheet_55
+    21300112: MC_idle_spritesheet_56
+    21300114: MC_idle_spritesheet_57
+    21300116: MC_idle_spritesheet_58
+    21300118: MC_idle_spritesheet_59
+    21300120: MC_idle_spritesheet_60
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: MC_idle_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 614.5
+        width: 1057
+        height: 614.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54.5, y: 132}
+        - {x: -78.5, y: 77}
+        - {x: -78.5, y: 42}
+        - {x: -73.5, y: -26}
+        - {x: 72.5, y: -26}
+        - {x: 72.5, y: 119}
+        - {x: 61.5, y: 132}
+    - name: MC_idle_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 614.5
+        width: 1057
+        height: 614.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62.083405, y: 131}
+        - {x: -78.083405, y: 75}
+        - {x: -78.083405, y: 71}
+        - {x: -73.083405, y: 68}
+        - {x: -53.083405, y: -22}
+        - {x: -49.083405, y: -25}
+        - {x: -43.083405, y: -25}
+        - {x: -39.083405, y: -20}
+        - {x: -33.083405, y: -26}
+        - {x: 67.916595, y: -26}
+        - {x: 67.916595, y: 124}
+        - {x: 65.916595, y: 131}
+    - name: MC_idle_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 614.5
+        width: 1057
+        height: 614.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.83319, y: -15}
+        - {x: 36.83319, y: -27}
+        - {x: 38.83319, y: -27}
+        - {x: 52.83319, y: -20}
+        - {x: 66.83319, y: 59}
+        - {x: 66.83319, y: 86}
+        - {x: 60.83319, y: 111}
+        - {x: 57.83319, y: 113}
+        - {x: 46.83319, y: 98}
+        - {x: 39.83319, y: 88}
+        - {x: 39.83319, y: 86}
+        - {x: -9.166809, y: 128}
+        - {x: -11.166809, y: 130}
+        - {x: -54.16681, y: 130}
+        - {x: -78.16681, y: 102}
+        - {x: -78.16681, y: 8}
+        - {x: -69.16681, y: -27}
+        - {x: -42.16681, y: -27}
+        - {x: -40.16681, y: -22}
+        - {x: -28.16681, y: -27}
+        - {x: -19.16681, y: -27}
+        - {x: -13.166809, y: -22}
+        - {x: 12.833191, y: -26}
+        - {x: 24.83319, y: -20}
+    - name: MC_idle_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 3171
+        y: 614.5
+        width: 1057
+        height: 614.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 65.74982, y: 39}
+        - {x: 65.74982, y: 129}
+        - {x: -57.250183, y: 129}
+        - {x: -79.25018, y: 99}
+        - {x: -79.25018, y: 19}
+        - {x: -55.250183, y: -23}
+        - {x: -45.250183, y: -27}
+        - {x: -42.250183, y: -27}
+        - {x: -40.250183, y: -22}
+        - {x: -29.250183, y: -27}
+        - {x: -21.250183, y: -27}
+        - {x: -12.250183, y: -23}
+        - {x: 12.749817, y: -26}
+        - {x: 20.749817, y: -27}
+        - {x: 52.749817, y: -27}
+    - name: MC_idle_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 4228
+        y: 614.5
+        width: 1057
+        height: 614.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -71.33362, y: 128}
+        - {x: -78.33362, y: 114}
+        - {x: -78.33362, y: 19}
+        - {x: -53.33362, y: -24}
+        - {x: -42.33362, y: -27}
+        - {x: -40.33362, y: -22}
+        - {x: -30.333618, y: -28}
+        - {x: 57.66638, y: -28}
+        - {x: 67.66638, y: 4}
+        - {x: 67.66638, y: 128}
+    - name: MC_idle_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 5285
+        y: 614.5
+        width: 1057
+        height: 614.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46.583008, y: -26}
+        - {x: 64.58301, y: 18}
+        - {x: 72.58301, y: 62}
+        - {x: 72.58301, y: 111}
+        - {x: 70.58301, y: 127}
+        - {x: -58.416992, y: 127}
+        - {x: -79.41699, y: 84}
+        - {x: -79.41699, y: 15}
+        - {x: -67.41699, y: -28}
+        - {x: 11.583008, y: -28}
+        - {x: 26.583008, y: -19}
+        - {x: 27.583008, y: -11}
+        - {x: 37.583008, y: -24}
+    - name: MC_idle_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 6342
+        y: 614.5
+        width: 1057
+        height: 614.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.999634, y: 14}
+        - {x: 34.999634, y: 13}
+        - {x: 33.999634, y: 12}
+        - {x: 31.999634, y: 7}
+        - {x: 31.999634, y: -12}
+        - {x: 37.999634, y: -23}
+        - {x: 51.999634, y: -22}
+        - {x: 80.99963, y: 91}
+        - {x: 80.99963, y: 110}
+        - {x: 78.99963, y: 111}
+        - {x: 48.999634, y: 90}
+        - {x: 50.999634, y: 87}
+        - {x: 55.999634, y: 81}
+        - {x: -11.000366, y: 126}
+        - {x: -13.000366, y: 128}
+        - {x: -56.000366, y: 128}
+        - {x: -78.00037, y: 74}
+        - {x: -78.00037, y: 49}
+        - {x: -60.000366, y: -28}
+        - {x: 0.9996338, y: -28}
+        - {x: 27.999634, y: -21}
+        - {x: 27.999634, y: -8}
+        - {x: 25.999634, y: -2}
+        - {x: 34.999634, y: 14}
+    - name: MC_idle_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.5
+        width: 1057
+        height: 614.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.5, y: -34.36168}
+        - {x: -45.5, y: -32.36168}
+        - {x: -48.5, y: -31.36168}
+        - {x: -50.5, y: -34.36168}
+      - - {x: -14.5, y: -30.36168}
+        - {x: -14.5, y: -34.36168}
+        - {x: -7.5, y: -34.36168}
+        - {x: -7.5, y: -32.36168}
+        - {x: -10.5, y: -28.36168}
+        - {x: -12.5, y: -28.36168}
+      - - {x: 23.5, y: 133.63832}
+        - {x: -62.5, y: 133.63832}
+        - {x: -79.5, y: 76.63832}
+        - {x: -79.5, y: 72.63832}
+        - {x: -73.5, y: 69.63832}
+        - {x: -66.5, y: -22.36168}
+        - {x: 79.5, y: -22.36168}
+        - {x: 85.5, y: 45.63832}
+        - {x: 85.5, y: 117.63832}
+        - {x: 77.5, y: 128.63832}
+    - name: MC_idle_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 0.5
+        width: 1057
+        height: 614.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44.083405, y: -34.36168}
+        - {x: -44.083405, y: -32.36168}
+        - {x: -47.083405, y: -31.36168}
+        - {x: -49.083405, y: -34.36168}
+      - - {x: -14.083405, y: -34.36168}
+        - {x: -6.0834045, y: -34.36168}
+        - {x: -7.0834045, y: -30.36168}
+        - {x: -10.083405, y: -28.36168}
+        - {x: -13.083405, y: -29.36168}
+      - - {x: 26.916595, y: -12.361679}
+        - {x: 36.916595, y: -19.36168}
+        - {x: 46.916595, y: -18.36168}
+        - {x: 92.916595, y: 31.63832}
+        - {x: 92.916595, y: 131.63832}
+        - {x: 86.916595, y: 134.63832}
+        - {x: -50.083405, y: 134.63832}
+        - {x: -52.083405, y: 131.63832}
+        - {x: -78.083405, y: 94.63832}
+        - {x: -78.083405, y: 44.63832}
+        - {x: -56.083405, y: -21.36168}
+        - {x: -18.083405, y: -21.36168}
+        - {x: -14.083405, y: -18.36168}
+        - {x: -13.083405, y: -7.361679}
+        - {x: 15.916595, y: -16.36168}
+    - name: MC_idle_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 0.5
+        width: 1057
+        height: 614.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.16681, y: -34.36168}
+        - {x: -44.16681, y: -31.36168}
+        - {x: -48.16681, y: -31.36168}
+        - {x: -49.16681, y: -34.36168}
+      - - {x: -13.166809, y: -31.36168}
+        - {x: -13.166809, y: -34.36168}
+        - {x: -6.166809, y: -34.36168}
+        - {x: -6.166809, y: -32.36168}
+        - {x: -9.166809, y: -28.36168}
+        - {x: -10.166809, y: -28.36168}
+      - - {x: -44.16681, y: 135.63832}
+        - {x: -62.16681, y: 128.63832}
+        - {x: -77.16681, y: 96.63832}
+        - {x: -77.16681, y: 44.63832}
+        - {x: -60.16681, y: -21.36168}
+        - {x: 83.83319, y: -21.36168}
+        - {x: 83.83319, y: 135.63832}
+    - name: MC_idle_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 3171
+        y: 0.5
+        width: 1057
+        height: 614.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44.250183, y: -34.36168}
+        - {x: -44.250183, y: -32.36168}
+        - {x: -47.250183, y: -31.36168}
+        - {x: -49.250183, y: -34.36168}
+      - - {x: -14.250183, y: -34.36168}
+        - {x: -6.250183, y: -34.36168}
+        - {x: -7.250183, y: -30.36168}
+        - {x: -10.250183, y: -28.36168}
+        - {x: -13.250183, y: -29.36168}
+      - - {x: -56.250183, y: 136.63832}
+        - {x: -77.25018, y: 102.63832}
+        - {x: -77.25018, y: 50.63832}
+        - {x: -55.250183, y: -20.36168}
+        - {x: -48.250183, y: -21.36168}
+        - {x: 62.749817, y: -21.36168}
+        - {x: 73.74982, y: -10.361679}
+        - {x: 73.74982, y: 136.63832}
+    - name: MC_idle_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 4228
+        y: 0.5
+        width: 1057
+        height: 614.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.33362, y: -34.36168}
+        - {x: -44.33362, y: -31.36168}
+        - {x: -48.33362, y: -31.36168}
+        - {x: -49.33362, y: -34.36168}
+      - - {x: -13.333618, y: -31.36168}
+        - {x: -13.333618, y: -34.36168}
+        - {x: -6.333618, y: -34.36168}
+        - {x: -6.333618, y: -32.36168}
+        - {x: -9.333618, y: -28.36168}
+        - {x: -10.333618, y: -28.36168}
+      - - {x: -2.3336182, y: 136.63832}
+        - {x: -12.333618, y: 136.63832}
+        - {x: -16.333618, y: 127.63832}
+        - {x: -45.33362, y: 136.63832}
+        - {x: -51.33362, y: 136.63832}
+        - {x: -76.33362, y: 82.63832}
+        - {x: -76.33362, y: 66.63832}
+        - {x: -53.33362, y: -18.36168}
+        - {x: -41.33362, y: -21.36168}
+        - {x: 56.66638, y: -21.36168}
+        - {x: 58.66638, y: -19.36168}
+        - {x: 74.66638, y: 44.63832}
+        - {x: 74.66638, y: 125.63832}
+    - name: MC_idle_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 5285
+        y: 0.5
+        width: 1057
+        height: 614.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44.416992, y: -34.36168}
+        - {x: -44.416992, y: -32.36168}
+        - {x: -47.416992, y: -31.36168}
+        - {x: -49.416992, y: -34.36168}
+      - - {x: -14.416992, y: -34.36168}
+        - {x: -6.416992, y: -34.36168}
+        - {x: -7.416992, y: -30.36168}
+        - {x: -8.416992, y: -28.36168}
+        - {x: -11.416992, y: -28.36168}
+        - {x: -14.416992, y: -29.36168}
+      - - {x: 36.583008, y: -20.36168}
+        - {x: 41.583008, y: -21.36168}
+        - {x: 57.583008, y: -21.36168}
+        - {x: 73.58301, y: 74.63832}
+        - {x: 73.58301, y: 125.63832}
+        - {x: 63.583008, y: 134.63832}
+        - {x: 59.583008, y: 136.63832}
+        - {x: -48.416992, y: 136.63832}
+        - {x: -77.41699, y: 102.63832}
+        - {x: -77.41699, y: 47.63832}
+        - {x: -52.416992, y: -18.36168}
+        - {x: -42.416992, y: -21.36168}
+        - {x: -41.416992, y: -21.36168}
+        - {x: -38.416992, y: -13.361679}
+        - {x: -27.416992, y: -21.36168}
+        - {x: -22.416992, y: -21.36168}
+        - {x: -13.416992, y: -18.36168}
+        - {x: 13.583008, y: -17.36168}
+        - {x: 30.583008, y: -11.361679}
+    - name: MC_idle_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 6342
+        y: 0.5
+        width: 1057
+        height: 614.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.000366, y: -34.36168}
+        - {x: -44.000366, y: -31.36168}
+        - {x: -48.000366, y: -31.36168}
+        - {x: -49.000366, y: -34.36168}
+      - - {x: -13.000366, y: -34.36168}
+        - {x: -6.000366, y: -34.36168}
+        - {x: -6.000366, y: -31.36168}
+        - {x: -9.000366, y: -28.36168}
+        - {x: -12.000366, y: -29.36168}
+      - - {x: 53.999634, y: -21.36168}
+        - {x: 74.99963, y: 66.63832}
+        - {x: 74.99963, y: 117.63832}
+        - {x: 73.99963, y: 116.63832}
+        - {x: 65.99963, y: 113.63832}
+        - {x: 45.999634, y: 94.63832}
+        - {x: 45.999634, y: 92.63832}
+        - {x: 49.999634, y: 88.63832}
+        - {x: -7.000366, y: 136.63832}
+        - {x: -50.000366, y: 136.63832}
+        - {x: -76.00037, y: 84.63832}
+        - {x: -76.00037, y: 48.63832}
+        - {x: -65.00037, y: -21.36168}
+        - {x: 16.999634, y: -21.36168}
+        - {x: 25.999634, y: -15.361679}
+        - {x: 29.999634, y: -1.3616791}
+        - {x: 37.999634, y: -19.36168}
+        - {x: 40.999634, y: -21.36168}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
